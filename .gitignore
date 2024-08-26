@@ -1,0 +1,59 @@
+# Node modules and build artifacts for React Native and React/NestJS
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+*.tgz
+
+# Django-specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+.env
+*.env
+*.pot
+*.po
+*.mo
+staticfiles/
+media/
+*.log
+
+# React Native specific
+.expo/
+.expo-shared/
+*.keystore
+*.jks
+
+# React/NestJS specific
+.next/
+.next-cache/
+public/
+*.log
+
+# Common temporary files
+.DS_Store
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.sublime-project
+*.sublime-workspace
+
+# Operating system-specific files
+Thumbs.db
+Desktop.ini
+
+# Environment-specific files
+.env.*
+*.env.*
